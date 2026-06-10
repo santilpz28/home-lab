@@ -1,0 +1,12 @@
+# Sensitive
+.env
+*.key
+*.pem
+*.crt
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+# OS
+.DS_Store
+Thumbs.db
