@@ -12,6 +12,17 @@
 
 </div>
 
+
+---
+
+<p align="center">
+  <img src="docs/architecture.png" alt="What lives in the lab" width="100%">
+</p>
+
+### What lives in the lab
+
+A personal hardware lab for understanding embedded Linux, IoT and radio. The **Raspberry Pi 4B** is the main controller and the primary hardening target — SSH is key-only, root login is off, UFW is default-deny and fail2ban watches the logs. A **Pixhawk 4** flies the drones, a **Flipper Zero** handles RF/IR/NFC research and a **Jetson Nano** runs local AI inference. Telemetry travels over **MQTT with TLS only**. A **Hetzner CX22** is deliberately exposed as a legal practice target, and the whole stack runs behind a local **Llama 3.1 8B** served by Ollama.
+
 ---
 
 ## 🎯 What is this?
